@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/train.py", line 129, in <module>
+    main()
+  File "/Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/train.py", line 115, in main
+    code_artifact.add_dir('/Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/train.py')
+  File "/usr/local/lib/python3.11/site-packages/wandb/sdk/artifacts/artifact.py", line 1185, in add_dir
+    raise ValueError("Path is not a directory: %s" % local_path)
+ValueError: Path is not a directory: /Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/train.py

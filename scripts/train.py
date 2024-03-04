@@ -6,33 +6,9 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import datasets, transforms
 from torch.optim.lr_scheduler import StepLR
+from plr_exercise.models import Net
 
-
-class Net(nn.Module):
-    def __init__(self):
-
-        super(Net, self).__init__()
-        self.conv1 = nn.Conv2d(1, 32, 3, 1)
-        self.conv2 = nn.Conv2d(32, 64, 3, 1)
-        self.dropout1 = nn.Dropout(0.25)
-        self.dropout2 = nn.Dropout(0.5)
-        self.fc1 = nn.Linear(9216, 128)
-        self.fc2 = nn.Linear(128, 10)
-
-    def forward(self, x):
-        x = self.conv1(x)
-        x = F.relu(x)
-        x = self.conv2(x)
-        x = F.relu(x)
-        x = F.max_pool2d(x, 2)
-        x = self.dropout1(x)
-        x = torch.flatten(x, 1)
-        x = self.fc1(x)
-        x = F.relu(x)
-        x = self.dropout2(x)
-        x = self.fc2(x)
-        output = F.log_softmax(x, dim=1)
-        return output
+import wandb
 
 
 def train(args, model, device, train_loader, optimizer, epoch):
@@ -55,6 +31,7 @@ def train(args, model, device, train_loader, optimizer, epoch):
                     loss.item(),
                 )
             )
+            wandb.log({"training_loss": loss.item()})
             if args.dry_run:
                 break
 
@@ -80,6 +57,7 @@ def test(model, device, test_loader, epoch):
             test_loss, correct, len(test_loader.dataset), 100.0 * correct / len(test_loader.dataset)
         )
     )
+    wandb.log({"test_loss": test_loss})
 
 
 def main():
@@ -130,6 +108,12 @@ def main():
 
     model = Net().to(device)
     optimizer = optim.Adam(model.parameters(), lr=args.lr)
+
+    wandb.init(project='task_3')
+
+    code_artifact = wandb.Artifact('code', type='code')
+    code_artifact.add_dir('/Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts')
+    wandb.log_artifact(code_artifact)
 
     scheduler = StepLR(optimizer, step_size=1, gamma=args.gamma)
     for epoch in range(args.epochs):
