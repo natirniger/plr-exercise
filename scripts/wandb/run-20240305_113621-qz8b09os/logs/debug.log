@@ -1,0 +1,66 @@
+2024-03-05 11:36:21,187 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-05 11:36:21,187 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Configure stats pid to 27567
+2024-03-05 11:36:21,187 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Loading settings from /Users/nathanirniger/.config/wandb/settings
+2024-03-05 11:36:21,187 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Loading settings from /Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/wandb/settings
+2024-03-05 11:36:21,187 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-05 11:36:21,187 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-05 11:36:21,187 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'scripts/train.py', 'program_abspath': '/Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/train.py', 'program': '/Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/train.py'}
+2024-03-05 11:36:21,187 INFO    MainThread:27567 [wandb_init.py:_log_setup():526] Logging user logs to /Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/wandb/run-20240305_113621-qz8b09os/logs/debug.log
+2024-03-05 11:36:21,187 INFO    MainThread:27567 [wandb_init.py:_log_setup():527] Logging internal logs to /Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/wandb/run-20240305_113621-qz8b09os/logs/debug-internal.log
+2024-03-05 11:36:21,187 INFO    MainThread:27567 [wandb_init.py:init():566] calling init triggers
+2024-03-05 11:36:21,187 INFO    MainThread:27567 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-03-05 11:36:21,187 INFO    MainThread:27567 [wandb_init.py:init():611] wandb.init() called when a run is still active
+2024-03-05 12:58:55,867 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-05 12:58:55,869 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Configure stats pid to 27567
+2024-03-05 12:58:55,869 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Loading settings from /Users/nathanirniger/.config/wandb/settings
+2024-03-05 12:58:55,869 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Loading settings from /Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/wandb/settings
+2024-03-05 12:58:55,869 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-05 12:58:55,869 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-05 12:58:55,869 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'scripts/train.py', 'program_abspath': '/Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/train.py', 'program': '/Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/train.py'}
+2024-03-05 12:58:55,869 INFO    MainThread:27567 [wandb_init.py:_log_setup():526] Logging user logs to /Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/wandb/run-20240305_125855-i8fqnmpu/logs/debug.log
+2024-03-05 12:58:55,869 INFO    MainThread:27567 [wandb_init.py:_log_setup():527] Logging internal logs to /Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/wandb/run-20240305_125855-i8fqnmpu/logs/debug-internal.log
+2024-03-05 12:58:55,869 INFO    MainThread:27567 [wandb_init.py:init():566] calling init triggers
+2024-03-05 12:58:55,869 INFO    MainThread:27567 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-03-05 12:58:55,869 INFO    MainThread:27567 [wandb_init.py:init():611] wandb.init() called when a run is still active
+2024-03-05 13:00:24,078 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-05 13:00:24,079 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Configure stats pid to 27567
+2024-03-05 13:00:24,079 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Loading settings from /Users/nathanirniger/.config/wandb/settings
+2024-03-05 13:00:24,079 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Loading settings from /Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/wandb/settings
+2024-03-05 13:00:24,079 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-05 13:00:24,079 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-05 13:00:24,079 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'scripts/train.py', 'program_abspath': '/Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/train.py', 'program': '/Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/train.py'}
+2024-03-05 13:00:24,079 INFO    MainThread:27567 [wandb_init.py:_log_setup():526] Logging user logs to /Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/wandb/run-20240305_130024-jkdy2mpk/logs/debug.log
+2024-03-05 13:00:24,079 INFO    MainThread:27567 [wandb_init.py:_log_setup():527] Logging internal logs to /Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/wandb/run-20240305_130024-jkdy2mpk/logs/debug-internal.log
+2024-03-05 13:00:24,079 INFO    MainThread:27567 [wandb_init.py:init():566] calling init triggers
+2024-03-05 13:00:24,079 INFO    MainThread:27567 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-03-05 13:00:24,079 INFO    MainThread:27567 [wandb_init.py:init():611] wandb.init() called when a run is still active
+2024-03-05 13:13:47,039 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-05 13:13:47,040 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Configure stats pid to 27567
+2024-03-05 13:13:47,040 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Loading settings from /Users/nathanirniger/.config/wandb/settings
+2024-03-05 13:13:47,040 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Loading settings from /Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/wandb/settings
+2024-03-05 13:13:47,040 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-05 13:13:47,041 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-05 13:13:47,041 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'scripts/train.py', 'program_abspath': '/Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/train.py', 'program': '/Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/train.py'}
+2024-03-05 13:13:47,041 INFO    MainThread:27567 [wandb_init.py:_log_setup():526] Logging user logs to /Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/wandb/run-20240305_131347-6i24t8yb/logs/debug.log
+2024-03-05 13:13:47,041 INFO    MainThread:27567 [wandb_init.py:_log_setup():527] Logging internal logs to /Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/wandb/run-20240305_131347-6i24t8yb/logs/debug-internal.log
+2024-03-05 13:13:47,041 INFO    MainThread:27567 [wandb_init.py:init():566] calling init triggers
+2024-03-05 13:13:47,041 INFO    MainThread:27567 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-03-05 13:13:47,041 INFO    MainThread:27567 [wandb_init.py:init():611] wandb.init() called when a run is still active
+2024-03-05 13:22:35,872 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-05 13:22:35,874 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Configure stats pid to 27567
+2024-03-05 13:22:35,874 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Loading settings from /Users/nathanirniger/.config/wandb/settings
+2024-03-05 13:22:35,874 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Loading settings from /Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/wandb/settings
+2024-03-05 13:22:35,874 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-05 13:22:35,874 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-05 13:22:35,874 INFO    MainThread:27567 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'scripts/train.py', 'program_abspath': '/Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/train.py', 'program': '/Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/train.py'}
+2024-03-05 13:22:35,874 INFO    MainThread:27567 [wandb_init.py:_log_setup():526] Logging user logs to /Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/wandb/run-20240305_132235-v6k268nj/logs/debug.log
+2024-03-05 13:22:35,874 INFO    MainThread:27567 [wandb_init.py:_log_setup():527] Logging internal logs to /Users/nathanirniger/Desktop/FS24/PLR/exercise/plr-exercise/scripts/wandb/run-20240305_132235-v6k268nj/logs/debug-internal.log
+2024-03-05 13:22:35,874 INFO    MainThread:27567 [wandb_init.py:init():566] calling init triggers
+2024-03-05 13:22:35,874 INFO    MainThread:27567 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-03-05 13:22:35,874 INFO    MainThread:27567 [wandb_init.py:init():611] wandb.init() called when a run is still active
+2024-03-05 13:28:34,232 WARNING MsgRouterThr:27567 [router.py:message_loop():77] message_loop has been closed
