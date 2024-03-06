@@ -6,16 +6,14 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import datasets, transforms
 from torch.optim.lr_scheduler import StepLR
-from plr_exercise.models import Net
-
 import wandb
 import optuna
 
+from plr_exercise.models import Net
 
 def objective(trial):
     """
-    Objective function for Optuna to optimize.
-    Find best learning rate and epoch number.
+    Objective function for Optuna to find the best learning rate and epoch number.
     """
     # Training settings
     parser = argparse.ArgumentParser(description="PyTorch MNIST Example")
@@ -76,6 +74,26 @@ def objective(trial):
 
 
 def train(args, model, device, train_loader, optimizer, epoch):
+    """
+    Train the model for one epoch.
+
+    Paramters
+    args : argparse.Namespace
+        Command line arguments.
+    model : torch.nn.Module
+        Model to train.
+    device : torch.device
+        Device to train on.
+    train_loader : torch.utils.data.DataLoader
+        Training data.
+    optimizer : torch.optim.Optimizer
+        Model optimizer.
+    epoch : int
+        Current epoch.
+
+    Returns:
+    None
+    """
     model.train()
     for batch_idx, (data, target) in enumerate(train_loader):
 
@@ -101,6 +119,22 @@ def train(args, model, device, train_loader, optimizer, epoch):
 
 
 def test(model, device, test_loader, epoch):
+    """
+    Test the model.
+    
+    Parameters
+    model : torch.nn.Module
+        Model to test.
+    device : torch.device
+        Device to test on.
+    test_loader : torch.utils.data.DataLoader
+        Test data.
+    epoch : int
+        Current epoch.
+    
+    Returns
+    None
+    """
     model.eval()
     test_loss = 0
     correct = 0
